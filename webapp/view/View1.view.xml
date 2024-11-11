@@ -1,0 +1,8 @@
+<mvc:View controllerName="consumesharedlib.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:lib="btp.samples.split.xsuaa.lib">
+    <Page id="page" title="{i18n>title}">
+        <lib:controls.Reuse text="App2" />
+    </Page>
+</mvc:View>
